@@ -44,3 +44,10 @@ html{
 
     font-size: 20px;
   }
+
+  input , textarea{
+    padding: 20px;
+  }
+  input[type="radio"] {
+  accent-color: #B9FF66;
+}

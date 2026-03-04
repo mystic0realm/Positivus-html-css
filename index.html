@@ -9,8 +9,7 @@
     <!-- tailwindCSS and DaisyUI -->
     <link href="https://cdn.jsdelivr.net/npm/daisyui@5" rel="stylesheet" type="text/css" />
     <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
-    <link href="https://cdn.jsdelivr.net/npm/flowbite@4.0.1/dist/flowbite.min.css" rel="stylesheet" />
-<script src="https://cdn.jsdelivr.net/npm/flowbite@4.0.1/dist/flowbite.min.js"></script>
+
 
 
 </head>
@@ -734,89 +733,48 @@
             </div>
 
             <!-- T E S T I M O N I A  L S -->
-            <div>
 
 
-                <div id="default-carousel" class="relative w-full" data-carousel="slide">
-                    <!-- Carousel wrapper -->
-                    <div class="relative h-56 overflow-hidden rounded-base md:h-96">
-                        <!-- Item 1 -->
-                        <div class="hidden duration-700 ease-in-out bg-black" data-carousel-item>
-                            <img src="/docs/images/carousel/carousel-1.svg"
-                                class="absolute block w-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2"
-                                alt="...">
-                        </div>
-                        <!-- Item 2 -->
-                        <div class="hidden duration-700 ease-in-out" data-carousel-item>
-                            <img src="/docs/images/carousel/carousel-2.svg"
-                                class="absolute block w-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2"
-                                alt="...">
-                        </div>
-                        <!-- Item 3 -->
-                        <div class="hidden duration-700 ease-in-out" data-carousel-item>
-                            <img src="/docs/images/carousel/carousel-3.svg"
-                                class="absolute block w-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2"
-                                alt="...">
-                        </div>
-                        <!-- Item 4 -->
-                        <div class="hidden duration-700 ease-in-out" data-carousel-item>
-                            <img src="/docs/images/carousel/carousel-4.svg"
-                                class="absolute block w-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2"
-                                alt="...">
-                        </div>
-                        <!-- Item 5 -->
-                        <div class="hidden duration-700 ease-in-out" data-carousel-item>
-                            <img src="/docs/images/carousel/carousel-5.svg"
-                                class="absolute block w-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2"
-                                alt="...">
-                        </div>
+            <!-- C O N T A C T    U S -->
+            <div class="mt-52 flex wColor justify-between items-center relative min-h-[663px] rounded-[30px]">
+                <div class="contactUsLeftSide w-[55.6rem] pl-[100px]">
+                    <div class="flex mb-12">
+                        <input type="radio" name="check"  class="  bg-[#B9FF66] size-10" checked="checked">
+                        <p class="text-[18px] pl-4  mr-7">Say Hi</p>
+
+                       <input type="radio" name="check"  class="  bg-[#B9FF66] size-10" >
+                        <p class="text-[18px] pl-4 ">Get a quote</p>
+
                     </div>
-                    <!-- Slider indicators -->
-                    <div class="absolute z-30 flex -translate-x-1/2 bottom-5 left-1/2 space-x-3 rtl:space-x-reverse">
-                        <button type="button" class="w-3 h-3 rounded-base" aria-current="true" aria-label="Slide 1"
-                            data-carousel-slide-to="0"></button>
-                        <button type="button" class="w-3 h-3 rounded-base" aria-current="false" aria-label="Slide 2"
-                            data-carousel-slide-to="1"></button>
-                        <button type="button" class="w-3 h-3 rounded-base" aria-current="false" aria-label="Slide 3"
-                            data-carousel-slide-to="2"></button>
-                        <button type="button" class="w-3 h-3 rounded-base" aria-current="false" aria-label="Slide 4"
-                            data-carousel-slide-to="3"></button>
-                        <button type="button" class="w-3 h-3 rounded-base" aria-current="false" aria-label="Slide 5"
-                            data-carousel-slide-to="4"></button>
+                    <div>
+                        <p class="text-[16px] mb-2">Name:</p>
+                        <input type="text" placeholder="Name" class="input input-bordered  w-full text-[18px] mb-7 " />
+                        <p class="text-[16px] mb-2">Email:</p>
+                        <input type="text" placeholder="Email" class="input input-bordered  w-full text-[18px] mb-7 " />
+
+                        <p class="text-[16px] mb-2">Message:</p>
+                        <textarea class="textarea text-[18px] w-full " placeholder="Messages"></textarea>
                     </div>
-                    <!-- Slider controls -->
-                    <button type="button"
-                        class="absolute top-0 start-0 z-30 flex items-center justify-center h-full px-4 cursor-pointer group focus:outline-none"
-                        data-carousel-prev>
-                        <span
-                            class="inline-flex items-center justify-center w-10 h-10 rounded-base bg-white/30 dark:bg-gray-800/30 group-hover:bg-white/50 dark:group-hover:bg-gray-800/60 group-focus:ring-4 group-focus:ring-white dark:group-focus:ring-gray-800/70 group-focus:outline-none">
-                            <svg class="w-5 h-5 text-white rtl:rotate-180" aria-hidden="true"
-                                xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none"
-                                viewBox="0 0 24 24">
-                                <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"
-                                    stroke-width="2" d="m15 19-7-7 7-7" />
-                            </svg>
-                            <span class="sr-only">Previous</span>
-                        </span>
-                    </button>
-                    <button type="button"
-                        class="absolute top-0 end-0 z-30 flex items-center justify-center h-full px-4 cursor-pointer group focus:outline-none"
-                        data-carousel-next>
-                        <span
-                            class="inline-flex items-center justify-center w-10 h-10 rounded-base bg-white/30 dark:bg-gray-800/30 group-hover:bg-white/50 dark:group-hover:bg-gray-800/60 group-focus:ring-4 group-focus:ring-white dark:group-focus:ring-gray-800/70 group-focus:outline-none">
-                            <svg class="w-5 h-5 text-white rtl:rotate-180" aria-hidden="true"
-                                xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none"
-                                viewBox="0 0 24 24">
-                                <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"
-                                    stroke-width="2" d="m9 5 7 7-7 7" />
-                            </svg>
-                            <span class="sr-only">Next</span>
-                        </span>
-                    </button>
                 </div>
+                <div class="absolute right-[-25%]">
+                    <svg  width="692" height="649" viewBox="0 0 692 649" fill="none" xmlns="http://www.w3.org/2000/svg">
+<mask id="mask0_341_618" style="mask-type:alpha" maskUnits="userSpaceOnUse" x="41" y="0" width="651" height="649">
+<mask id="path-1-outside-1_341_618" maskUnits="userSpaceOnUse" x="40.7109" y="-0.875" width="651" height="650" fill="black">
+<rect fill="white" x="40.7109" y="-0.875" width="651" height="650"/>
+<path d="M366.641 161.686L387.068 0.125L386.909 162.962L427.445 5.22862L407.017 166.79L467.024 15.2764L426.488 173.17L505.007 30.2682L444.841 181.782L540.756 49.8853L462.077 192.787L573.632 73.968L477.876 205.705L603.475 101.878L491.761 220.538L629.489 133.298L503.73 237.124L651.353 167.747L513.625 254.987L668.749 204.589L521.126 273.966L681.356 243.344L526.233 293.743L689.017 283.376L528.786 313.838L691.57 324.045L528.786 334.253L689.017 364.715L526.233 354.508L681.356 404.746L521.126 374.284L668.749 443.661L513.625 393.263L651.353 480.503L503.73 411.126L629.489 514.953L491.761 427.553L603.475 546.372L477.876 442.385L573.632 574.282L462.077 455.463L540.756 598.205L444.841 466.309L505.007 617.822L426.488 475.08L467.024 632.814L407.017 481.301L427.445 643.021L386.909 485.128L387.068 648.125L366.641 486.404L346.213 648.125L346.213 485.128L305.676 643.021L326.264 481.301L266.257 632.814L306.794 475.08L228.274 617.822L288.44 466.309L192.526 598.205L271.205 455.463L159.49 574.282L255.405 442.385L129.806 546.372L241.52 427.553L103.792 514.953L229.551 411.126L81.9282 480.503L219.656 393.263L64.5326 443.661L212.155 374.284L51.9248 404.746L207.048 354.508L44.2644 364.715L204.495 334.253L41.7109 324.045L204.495 313.838L44.2644 283.376L207.048 293.743L51.9248 243.344L212.155 273.966L64.5326 204.589L219.656 254.987L81.9282 167.747L229.551 237.124L103.792 133.298L241.52 220.538L129.806 101.878L255.405 205.705L159.49 73.968L271.205 192.787L192.526 49.8853L288.44 181.782L228.274 30.2682L306.794 173.17L266.257 15.2764L326.264 166.79L305.676 5.22862L346.213 162.962V0.125L366.641 161.686Z"/>
+</mask>
+<path d="M366.641 161.686L387.068 0.125L386.909 162.962L427.445 5.22862L407.017 166.79L467.024 15.2764L426.488 173.17L505.007 30.2682L444.841 181.782L540.756 49.8853L462.077 192.787L573.632 73.968L477.876 205.705L603.475 101.878L491.761 220.538L629.489 133.298L503.73 237.124L651.353 167.747L513.625 254.987L668.749 204.589L521.126 273.966L681.356 243.344L526.233 293.743L689.017 283.376L528.786 313.838L691.57 324.045L528.786 334.253L689.017 364.715L526.233 354.508L681.356 404.746L521.126 374.284L668.749 443.661L513.625 393.263L651.353 480.503L503.73 411.126L629.489 514.953L491.761 427.553L603.475 546.372L477.876 442.385L573.632 574.282L462.077 455.463L540.756 598.205L444.841 466.309L505.007 617.822L426.488 475.08L467.024 632.814L407.017 481.301L427.445 643.021L386.909 485.128L387.068 648.125L366.641 486.404L346.213 648.125L346.213 485.128L305.676 643.021L326.264 481.301L266.257 632.814L306.794 475.08L228.274 617.822L288.44 466.309L192.526 598.205L271.205 455.463L159.49 574.282L255.405 442.385L129.806 546.372L241.52 427.553L103.792 514.953L229.551 411.126L81.9282 480.503L219.656 393.263L64.5326 443.661L212.155 374.284L51.9248 404.746L207.048 354.508L44.2644 364.715L204.495 334.253L41.7109 324.045L204.495 313.838L44.2644 283.376L207.048 293.743L51.9248 243.344L212.155 273.966L64.5326 204.589L219.656 254.987L81.9282 167.747L229.551 237.124L103.792 133.298L241.52 220.538L129.806 101.878L255.405 205.705L159.49 73.968L271.205 192.787L192.526 49.8853L288.44 181.782L228.274 30.2682L306.794 173.17L266.257 15.2764L326.264 166.79L305.676 5.22862L346.213 162.962V0.125L366.641 161.686Z" stroke="black" stroke-width="2" stroke-miterlimit="10" mask="url(#path-1-outside-1_341_618)"/>
+</mask>
+<g mask="url(#mask0_341_618)">
+<rect x="-785.721" y="-37.9922" width="1152.83" height="702.852" rx="45" fill="black"/>
+</g>
+<path d="M95.7147 470.221L141.422 495.125L95.7147 520.229L70.7109 565.835L45.7072 520.229L0.000260592 495.125L45.7072 470.221L70.7109 424.414L95.7147 470.221Z" fill="#B9FF66"/>
+<path d="M217.102 243.69L298.777 288.191L217.102 333.05L172.422 414.547L127.742 333.05L46.0666 288.191L127.742 243.69L172.422 161.836L217.102 243.69Z" fill="#191A23"/>
+</svg>
 
+                </div>
             </div>
-            
+
 
 
 
